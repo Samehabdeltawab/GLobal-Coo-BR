@@ -1,0 +1,22 @@
+{
+    "orgRequest": {
+      "orgName": "Thiqha Organization",
+      "tradeName": "Software",
+      "Id": "55.555.",
+      "typeNumber": "/5555-20",
+      "activity": "Test Activity",
+      "phone": "3126987798",
+      "email": "ssayed2089@gmail.com",
+      "streetname": "5456456",
+      "zipCode": "test",
+      "additionnumber": "6546",
+      "secondID":""
+    },
+    "rejectRequest": {
+      "notes": "Rejected"
+    },
+    "returnNotes":{
+
+      "notes":"retrun for correction"
+    }
+  }

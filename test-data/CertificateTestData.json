@@ -1,0 +1,16 @@
+{
+  "Certificate": {
+    "ImporterName": "Test Importer",
+    "ImporterEmail": "importer",
+    "ImporterPhone": "512345678",
+    "ImporterAddress": "123 شارع الاختبار، القاهرة",
+    "ShippingDetails": "شحنة تجريبية",
+    "InvoiceNumber": "INV-",
+    "InvoiceAmount": "5000000",
+    "GrossWeight": "150",
+    "NetWeight": "140",
+    "NoOfPackages": "10",
+    "ProductPrice": "1000",
+    "Signature": "Test Signature"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ssayed\\GlobalCOO_Playwright_UI_QCAutomation\\playwright.config.js",
+    "rootDir": "C:/Users/ssayed/GlobalCOO_Playwright_UI_QCAutomation/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "C:\\Users\\ssayed\\GlobalCOO_Playwright_UI_QCAutomation\\node_modules\\allure-playwright\\dist\\index.js",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/ssayed/GlobalCOO_Playwright_UI_QCAutomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/ssayed/GlobalCOO_Playwright_UI_QCAutomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 500000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.46.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Edit_Legalization_request.spec.js",
+      "file": "Edit_Legalization_request.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Legalization Request",
+          "file": "Edit_Legalization_request.spec.js",
+          "line": 23,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Add Legalization Request",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 1500000,
+                  "annotations": [
+                    {
+                      "type": "slow"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 35131,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2-2408-000160\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-28T07:51:39.748Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fd4b7406e69e8adc22be-a93b996be47701913f0a",
+              "file": "Edit_Legalization_request.spec.js",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "Return the legalization request to the applicant",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 1500000,
+                  "annotations": [
+                    {
+                      "type": "slow"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 39775,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "request id value:2-2408-000160\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-28T07:52:15.211Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fd4b7406e69e8adc22be-f60c039203e43d793e45",
+              "file": "Edit_Legalization_request.spec.js",
+              "line": 38,
+              "column": 9
+            },
+            {
+              "title": "Edit Request",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 1500000,
+                  "annotations": [
+                    {
+                      "type": "slow"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 35748,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-28T07:52:54.995Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fd4b7406e69e8adc22be-5932ead7a33ce3a8e249",
+              "file": "Edit_Legalization_request.spec.js",
+              "line": 57,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-08-28T07:51:39.388Z",
+    "duration": 111658.274,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

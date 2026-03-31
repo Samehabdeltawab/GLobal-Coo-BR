@@ -1,0 +1,15 @@
+{
+  "applicantUser": {
+    "email": "coo.automation2025@hotmail.com",
+    "password": "P@$$w0rd",
+    "otp": "0000",
+    "invalideEmail":"ssayed335.com",
+    "invalidPass":"P@ss"
+  },
+  "adminUser": {
+    "emailUser":"superadmin@coo.sa",
+    "pass":"P@ssw0rd",
+    "otp":"0000"
+
+  }
+}

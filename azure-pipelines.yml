@@ -1,0 +1,32 @@
+trigger:
+  branches:
+    include:
+      - Sameh # Replace with your branch name
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '16.x' # Specify the Node.js version you want to use
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install
+    displayName: 'Install npm dependencies'
+
+  - script: |
+      npx playwright install-deps
+    displayName: 'Install Playwright dependencies'
+
+  - script: |
+      npx playwright test
+    displayName: 'Run Playwright tests'
+
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: '**/test-results/*.xml'
+      failTaskOnFailedTests: true
+    displayName: 'Publish Playwright Test Results'

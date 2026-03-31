@@ -1,0 +1,14 @@
+{
+  "producerName": "Test Producer",
+  "producerId": "55.555.",
+  "producerTypeNumber": "/5555-20",
+  "producerLandline": "5123456789",
+  "producerAddress": "Test Address",
+  "portuguesProductName": "Test Product",
+  "englishProductName": "Test Product",
+  "productIDNumber": "11.222.",
+  "productTypeNumber": "/4444-55",
+  "portuguesDescription": "Test Description",
+  "englishDescription": "Test Description",
+  "productHSCode": "1234567890"
+}
